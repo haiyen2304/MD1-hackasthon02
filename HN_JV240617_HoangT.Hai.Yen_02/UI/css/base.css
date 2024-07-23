@@ -13,7 +13,7 @@ html {
     line-height: 1.6;
 }
 
-.grid {  /*  hệ thống lưới*/
+.grid { 
     width: 100%;
     display: block;
     padding: 0;
@@ -24,7 +24,7 @@ html {
     margin: 0 auto;
 }
 
-.row { /* dòng*/
+.row {
     display: flex;
     flex-wrap: wrap;
     margin-left: -16px;
@@ -38,7 +38,7 @@ html {
     margin-right: 0;
 }
 
-.col { /* cột*/
+.col {
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 16px;
@@ -74,7 +74,6 @@ html {
     max-width: 100%;
 }
 
-/* >= Tablet */
 @media (min-width: 740px) {
     .row {
         margin-left: -8px;
@@ -107,7 +106,6 @@ html {
     }
 }
 
-/* PC medium resolution > */
 @media (min-width: 1113px) {
     .row {
         margin-left: -14px;
@@ -156,14 +154,12 @@ html {
 
 }
 
-/* Tablet - PC low resolution */
 @media (min-width: 740px) and (max-width: 1023px) {
     .wide {
         width: 644px;
     }
 }
 
-/* > PC low resolution */
 @media (min-width: 1024px) and (max-width: 1239px) {
     .wide {
         width: 984px;

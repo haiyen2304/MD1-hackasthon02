@@ -187,7 +187,7 @@ function checkErrors() {
   let flag = true;
   let index = profiles.findIndex((item) => item.name === nameProfile.value);
 
-  if (index !== -1 && newProduct.name !== profiles.name) {
+  if (index !== -1 && profiles[index].id !== idUpdate) {
     flag = false;
     showError("errorName", "Tên dự án đã tồn tại");
   }
